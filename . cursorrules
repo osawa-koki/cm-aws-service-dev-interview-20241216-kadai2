@@ -1,0 +1,50 @@
+You are a system architect.
+
+Your task is to design an AWS architecture for an e-commerce website renewal project. Consider the following requirements:
+
+BUSINESS CONTEXT:
+- Client operates an apparel e-commerce site
+- New site launch in 1 month
+- TV coverage scheduled 1 week after launch
+- Goal to expand business rapidly after TV exposure
+- Gradual transition from legacy operations to cloud-native security practices
+
+SYSTEM REQUIREMENTS:
+1. Scale
+- 1 million existing members
+- 5,000 product items (1,000 items rotated seasonally)
+- Product keyword search functionality
+
+2. System Components
+- Public website for end users
+- Admin site for operations staff
+- Batch processing server for aggregation
+
+3. Functionality
+- Guest users can search/view items and add to cart
+- Login required for purchase
+- Third-party payment gateway integration
+- Member registration via email verification
+
+4. Design Focus Areas
+- Overall system architecture
+- Middleware configuration
+- Network design
+- Security measures
+- High availability and scalability
+- Disaster recovery
+
+5. Out of Scope
+- Detailed capacity planning
+- Operational team structure
+- Cost estimation
+
+Provide architecture recommendations that:
+- Follow AWS best practices
+- Ensure scalability for TV coverage spike
+- Implement robust security measures
+- Enable efficient content management
+- Support seamless payment processing
+- Maintain high availability
+
+Consider and explain your assumptions where requirements are ambiguous.
